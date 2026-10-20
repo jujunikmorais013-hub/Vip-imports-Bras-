@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101827">
+<title>VIP Eletrônicos Bras | Sua loja online</title>
+<style>
+:root{--navy:#101827;--blue:#2357d9;--cyan:#17c6d1;--ink:#182230;--muted:#667085;--bg:#f5f7fb;--line:#e7ebf2;--white:#fff;--green:#138a55}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:Inter,Arial,sans-serif;color:var(--ink)}a{color:inherit;text-decoration:none}button,input,select{font:inherit}.topline{background:#0a1020;color:#dce5f5;text-align:center;padding:9px 14px;font-size:12px}.header{background:var(--navy);color:white;padding:18px max(20px,calc((100% - 1180px)/2));display:flex;align-items:center;gap:22px;flex-wrap:wrap}.brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:20px;letter-spacing:-.6px;white-space:nowrap}.logo{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,var(--cyan),#4169ee);font-weight:900;color:#081322}.search{display:flex;flex:1;min-width:220px;background:white;border-radius:10px;overflow:hidden}.search input{border:0;outline:0;padding:13px 15px;width:100%;min-width:0}.search button{border:0;background:var(--cyan);padding:0 17px;cursor:pointer;color:#071521;font-weight:800}.cartbtn{border:1px solid #475166;border-radius:10px;background:transparent;color:white;padding:12px 15px;cursor:pointer;font-weight:700}.nav{background:white;border-bottom:1px solid var(--line);padding:0 max(20px,calc((100% - 1180px)/2));display:flex;gap:25px;overflow:auto;white-space:nowrap}.nav button{border:0;background:transparent;padding:15px 0;cursor:pointer;color:#475467;font-weight:700}.nav button.active,.nav button:hover{color:var(--blue)}main{max-width:1180px;margin:auto;padding:24px 20px 50px}.hero{border-radius:20px;background:linear-gradient(115deg,#111b32 0%,#1e3f91 62%,#157e9a 100%);color:white;min-height:290px;padding:36px;display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:20px;overflow:hidden}.eyebrow{display:inline-block;background:#ffffff20;border:1px solid #ffffff36;border-radius:99px;padding:7px 11px;font-size:12px;font-weight:800;letter-spacing:.6px}.hero h1{font-size:clamp(30px,4vw,48px);line-height:1.04;letter-spacing:-1.5px;margin:16px 0 12px;max-width:560px}.hero p{color:#dbe7ff;line-height:1.6;max-width:510px;margin:0 0 22px}.primary{display:inline-block;background:var(--cyan);color:#071521;border:0;border-radius:10px;padding:13px 18px;font-weight:900;cursor:pointer}.hero-art{display:grid;place-items:center;min-height:190px;font-size:clamp(95px,15vw,170px);filter:drop-shadow(0 20px 20px #0005)}.launchstrip{margin:22px 0 8px;padding:17px 20px;border-radius:14px;background:linear-gradient(100deg,#c91d35,#ff7a18);color:white;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;box-shadow:0 8px 24px #c91d3526}.launchstrip strong{font-size:clamp(17px,2.5vw,24px)}.launchstrip span{font-size:13px;font-weight:700}.promo-note{font-size:11px;color:#667085;line-height:1.5;margin-top:14px}.trust{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0 34px}.trust div{background:white;border:1px solid var(--line);border-radius:12px;padding:15px;display:flex;align-items:center;gap:10px;font-size:13px;font-weight:750}.trust span{font-size:23px}.sectionhead{display:flex;justify-content:space-between;align-items:end;gap:12px;margin:28px 0 16px}.sectionhead h2{font-size:25px;margin:0;letter-spacing:-.7px}.sectionhead p{margin:5px 0 0;color:var(--muted);font-size:14px}.products{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;align-items:stretch;min-width:0}.product{background:white;border:1px solid var(--line);border-radius:15px;overflow:hidden;display:flex;flex-direction:column;transition:transform .18s,box-shadow .18s;min-width:0;width:100%}.product:hover{transform:translateY(-3px);box-shadow:0 12px 30px #18223012}.productimg{height:180px;background:linear-gradient(145deg,#f4f7fb,#e8eef7);display:grid;place-items:center;font-size:76px;position:relative;overflow:hidden;min-width:0}.productimg .fallback{width:100%;height:100%;display:grid!important;place-items:center;font-size:76px;background:radial-gradient(circle at 50% 40%,#fff 0,#edf3fb 70%);line-height:1}.productimg img{position:absolute;inset:0}.productimg img{width:100%;height:100%;object-fit:contain;padding:16px;display:block}.productimg .fallback{display:none}.tag{position:absolute;top:12px;left:12px;background:#e3f9f2;color:#08784a;border-radius:6px;padding:5px 7px;font-size:10px;font-weight:900}.productbody{padding:15px;display:flex;flex-direction:column;flex:1;min-width:0;overflow-wrap:anywhere}.category{color:var(--blue);font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.6px}.product h3{font-size:15px;line-height:1.4;margin:8px 0;min-height:42px}.rating{color:#e5a000;font-size:12px}.old{font-size:12px;color:#98a2b3;text-decoration:line-through;margin-top:12px}.price{font-size:clamp(20px,2vw,26px);font-weight:950;letter-spacing:-.7px;margin-top:2px;color:#d71935;line-height:1.15;overflow-wrap:anywhere}.pixlabel{display:inline-block;width:max-content;max-width:100%;background:#e6fbef;color:#087443;border-radius:5px;padding:4px 7px;font-size:10px;font-weight:900;margin-top:7px}.installments{font-size:12px;color:var(--muted);margin:5px 0 14px;line-height:1.4;overflow-wrap:anywhere}.cardprice{font-weight:800;color:#243b70}.add{border:0;border-radius:9px;background:var(--blue);color:white;font-weight:850;padding:12px;cursor:pointer;margin-top:auto}.add:hover{background:#1745bd}.empty{background:white;border:1px dashed #cbd5e1;border-radius:12px;padding:28px;text-align:center;color:var(--muted);grid-column:1/-1}
+.productdetail{position:fixed;inset:0;background:#061024aa;display:none;align-items:center;justify-content:center;padding:18px;z-index:20}
+.productdetail.open{display:flex}.detailbox{background:white;border-radius:16px;padding:22px;width:min(480px,100%);max-height:90vh;overflow:auto}
+.detailbox h2{margin:8px 0}.detailbox .detailprice{font-size:28px;font-weight:950;color:#d71935;margin:8px 0}.detailactions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.detailactions button{border:0;border-radius:9px;padding:12px 14px;font-weight:800;cursor:pointer}.detailadd{background:var(--blue);color:white}.detailclose{background:#eef2f7}
+.product{cursor:pointer}.product button{cursor:pointer}.product h3{cursor:pointer}.productimg{cursor:pointer}
+.newsletter{margin-top:34px;padding:26px;border-radius:16px;background:#e9f4ff;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}.newsletter h3{margin:0 0 5px}.newsletter p{margin:0;color:var(--muted);font-size:14px}.newsletter form{display:flex;gap:8px;flex-wrap:wrap}.newsletter input{padding:12px 14px;border:1px solid #d4deec;border-radius:9px;min-width:220px}.footer{background:var(--navy);color:#d6deeb;padding:32px 20px}.footerinner{max-width:1180px;margin:auto;display:grid;grid-template-columns:2fr 1fr 1fr;gap:24px}.footer h4{color:white;margin:0 0 12px}.footer p,.footer li{font-size:13px;line-height:1.7;color:#b5c0d3}.footer ul{list-style:none;padding:0;margin:0}.copyright{max-width:1180px;margin:25px auto 0;border-top:1px solid #334057;padding-top:16px;font-size:12px;color:#98a6bd}.cartpanel{position:fixed;inset:0;background:#06102488;display:none;justify-content:flex-end;z-index:5}.cartpanel.open{display:flex}.cart{background:white;width:min(440px,100%);height:100%;padding:22px;display:flex;flex-direction:column;box-shadow:-10px 0 40px #0002}.carthead{display:flex;justify-content:space-between;align-items:center}.carthead h2{margin:0}.close{border:0;background:#eef2f7;border-radius:8px;padding:8px 12px;cursor:pointer}.cartitems{overflow:auto;flex:1;margin:18px 0}.cartitem{display:flex;justify-content:space-between;gap:12px;padding:13px 0;border-bottom:1px solid var(--line)}.cartitem small{display:block;color:var(--muted);margin-top:4px}.qty{display:flex;align-items:center;gap:8px;margin-top:8px}.qty button{border:1px solid var(--line);background:white;border-radius:6px;width:25px;height:25px;cursor:pointer}.carttotal{border-top:1px solid var(--line);padding-top:16px}.totalrow{display:flex;justify-content:space-between;font-weight:900;font-size:20px;margin-bottom:14px}.checkout{width:100%;border:0;border-radius:10px;background:var(--green);color:white;font-weight:900;padding:14px;cursor:pointer}.hint{font-size:11px;line-height:1.5;color:var(--muted);margin-top:10px}.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#101827;color:white;padding:12px 18px;border-radius:10px;display:none;z-index:10;box-shadow:0 6px 25px #0002}.toast.show{display:block}
+@media(max-width:900px){.products{grid-template-columns:repeat(2,minmax(0,1fr))}.trust{grid-template-columns:repeat(2,1fr)}.hero{grid-template-columns:1fr .5fr;padding:28px}.hero-art{font-size:100px}.footerinner{grid-template-columns:1fr 1fr}.footerinner>div:first-child{grid-column:1/-1}}
+@media(max-width:560px){main{padding-left:12px;padding-right:12px}.header{padding-left:12px;padding-right:12px;gap:12px}.brand{font-size:17px}.cartbtn{padding:11px}.search{order:3;flex-basis:100%}.hero{grid-template-columns:1fr;padding:25px;min-height:0}.hero-art{display:none}.hero h1{font-size:34px}.trust{gap:8px}.trust div{padding:11px;font-size:12px}.products{gap:10px}.productimg{height:135px;font-size:57px}.productimg img{padding:10px}.productbody{padding:11px}.product h3{font-size:13px;min-height:54px}.price{font-size:20px}.add{font-size:12px;padding:11px 7px}.footerinner{grid-template-columns:1fr}.footerinner>div:first-child{grid-column:auto}.sectionhead h2{font-size:22px}}
+</style>
+</head>
+<body>
+<div class="topline">🔥 INAUGURAÇÃO VIP ELETRÔNICOS BRAS • OFERTAS POR TEMPO LIMITADO • PREÇOS DEMONSTRATIVOS</div>
+<header class="header">
+  <a class="brand" href="#" aria-label="VIP Eletrônicos Bras início"><span class="logo">VIP</span><span>VIP ELETRÔNICOS <span style="color:#17c6d1">BRAS</span></span></a>
+  <form class="search" id="searchForm"><input id="searchInput" placeholder="O que você está procurando?" aria-label="Buscar produtos"><button type="submit">Buscar</button></form>
+  <button class="cartbtn" id="openCart">🛒 Carrinho (<span id="cartCount">0</span>)</button>
+</header>
+<nav class="nav" aria-label="Categorias">
+  <button class="active" data-cat="Todos">Todos os produtos</button><button data-cat="Climatização">Climatização</button><button data-cat="Informática">Informática</button><button data-cat="Celulares">Celulares</button><button data-cat="TV e Vídeo">TV e Vídeo</button><button data-cat="Games">Games</button><button data-cat="Eletrônicos">Eletrônicos</button><button data-cat="Eletrodomésticos">Eletrodomésticos</button><button data-cat="Casa">Casa</button><button data-cat="Acessórios">Acessórios</button><button data-cat="Beleza">Beleza</button>
+</nav>
+<main>
+  <section class="hero">
+    <div><span class="eyebrow">🎉 GRANDE INAUGURAÇÃO • TEMPO LIMITADO</span><h1>Preços especiais para inaugurar com você!</h1><p>Descontos de lançamento em eletrônicos, climatização, informática, beleza e muito mais. Escolha seus favoritos e aproveite as ofertas demonstrativas da VIP.</p><a href="#catalogo" class="primary">🔥 Ver ofertas de inauguração ↓</a><p style="font-size:11px;margin-top:12px;color:#dbe7ff">*Valores e descontos são ilustrativos para montar a loja. Confirme preços, estoque e prazo real antes de publicar.</p></div>
+    <div class="hero-art" aria-hidden="true">🛍️</div>
+  </section>
+  <section class="launchstrip" aria-label="Promoção de inauguração"><strong>🔥 PROMOÇÃO DE INAUGURAÇÃO</strong><span>Ofertas por tempo limitado • confira os preços</span></section>
+  <section class="trust" aria-label="Vantagens"><div><span>🔒</span><div>Compra protegida</div></div><div><span>📦</span><div>Envio para todo o Brasil*</div></div><div><span>💳</span><div>Pix e cartão*</div></div><div><span>💬</span><div>Atendimento online</div></div></section>
+  <div class="sectionhead" id="catalogo"><div><h2>🔥 Ofertas de inauguração</h2><p>Mais opções para você • preços promocionais demonstrativos, sujeitos à confirmação antes da publicação</p></div><span id="resultCount" style="font-size:13px;color:#667085"></span></div>
+  <section class="products" id="products"></section>
+  <p class="promo-note">Atenção: esta é uma versão de demonstração. Os preços riscados, descontos e etiquetas promocionais são exemplos visuais; só anuncie desconto ou prazo limitado após confirmar preço anterior real, preço vigente, estoque e validade da oferta.</p>
+  <section class="newsletter"><div><h3>Receba novidades e ofertas</h3><p>Cadastre seu e-mail para ficar por dentro das novidades.</p></div><form id="newsletterForm"><input type="email" required placeholder="Seu melhor e-mail" aria-label="Seu e-mail"><button class="primary" type="submit">Quero receber</button></form></section>
+</main>
+<footer class="footer"><div class="footerinner"><div><a class="brand" href="#"><span class="logo">VIP</span><span>VIP ELETRÔNICOS <span style="color:#17c6d1">BRAS</span></span></a><p>Uma loja online para facilitar suas compras. Atendimento transparente e informações claras para você comprar com confiança.</p></div><div><h4>Atendimento</h4><ul><li>Fale conosco: [adicione seu contato]</li><li>Horário: [adicione o horário]</li><li>Política de troca e devolução</li></ul></div><div><h4>Institucional</h4><ul><li>Sobre a loja</li><li>Privacidade</li><li>Envios e entregas</li><li>Termos de uso</li></ul></div></div><div class="copyright">© <span id="year"></span> VIP Eletrônicos Bras. Todos os direitos reservados. *Informações de frete e pagamento devem ser confirmadas antes da publicação.</div></footer>
+
+<div class="productdetail" id="productDetail" role="dialog" aria-modal="true" aria-label="Detalhes do produto">
+  <div class="detailbox">
+    <div style="display:flex;justify-content:space-between;gap:12px;align-items:center"><span class="category" id="detailCategory"></span><button class="close" id="detailClose">Fechar ✕</button></div>
+    <div id="detailEmoji" style="font-size:72px;text-align:center;padding:16px;background:#f4f7fb;border-radius:12px;margin-top:12px"></div>
+    <h2 id="detailName"></h2><p id="detailDesc" style="color:#667085"></p>
+    <div id="detailOld" class="old"></div><div class="pixlabel">🔥 PREÇO ESPECIAL NO PIX</div><div id="detailPrice" class="detailprice"></div><div id="detailCardPrice" class="cardprice"></div>
+    <p style="font-size:12px;color:#667085">Preços demonstrativos para a montagem da loja. Confirme valores reais, estoque, modelo e validade da promoção antes de anunciar.</p>
+    <div class="detailactions"><button class="detailadd" id="detailAdd">Adicionar ao carrinho</button><button class="detailclose" id="detailContinue">Continuar vendo produtos</button></div>
+  </div>
+</div>
+
+<div class="cartpanel" id="cartPanel" role="dialog" aria-modal="true" aria-label="Seu carrinho"><div class="cart"><div class="carthead"><h2>Seu carrinho</h2><button class="close" id="closeCart">Fechar ✕</button></div><div class="cartitems" id="cartItems"></div><div class="carttotal"><div class="totalrow"><span>Total</span><span id="cartTotal">R$ 0,00</span></div><button class="checkout" id="checkout">Continuar para pagamento</button><div class="hint">Demonstração: o pagamento ainda não está conectado. Para receber pedidos reais, configure Asaas ou Mercado Pago em um backend seguro, sem expor chaves secretas no navegador.</div></div></div></div>
+<div class="toast" id="toast" role="status"></div>
+<script>
+const products=[
+{id:1,name:"Fone Bluetooth sem fio",category:"Acessórios",emoji:"🎧",img:"https://media.centrepointstores.com/i/centrepoint/FREEBUDSTUDIO-BLACKBlack-FREEBUDSTUDIO-BLACKCP10052021_01-2100.jpg",price:89.90,old:119.90,tag:"Destaque",desc:"Som sem fio para o dia a dia"},
+{id:2,name:"Smartwatch esportivo",category:"Eletrônicos",emoji:"⌚",img:"https://www.pejesmart.com/cdn/shop/files/Z159-_01_2dc19610-9aec-4829-ae2a-9b8998eabd3b.jpg?v=1726221899&width=1500",price:129.90,old:169.90,tag:"Oferta",desc:"Acompanhe sua rotina"},
+{id:3,name:"Ar-condicionado Split 9.000 BTUs",category:"Casa",emoji:"❄️",img:"https://i.zst.com.br/thumbs/12/28/1b/38869183.jpg",price:1899.90,old:2199.90,tag:"Popular",desc:"Modelo ilustrativo; confirme especificações"},
+{id:4,name:"Caixa de som portátil",category:"Eletrônicos",emoji:"🔊",img:"https://images.price.tools/images/monster-s380-bluetooth-speaker-portable-speaker-l-N6D6YzPU.jpg",price:149.90,old:189.90,tag:"Oferta",desc:"Música para qualquer momento"},
+{id:5,name:"Carregador USB-C",category:"Acessórios",emoji:"🔌",img:"https://media.technikdirekt.de/media/9f/6e/80/1753728820/152191_00.jpg?ts=1753728823",price:49.90,old:69.90,tag:"Destaque",desc:"Acessório para seus dispositivos"},
+{id:6,name:"Celular smartphone",category:"Celulares",emoji:"📱",img:"https://images.samsung.com/is/image/samsung/assets/us/why-buy-direct/S25-MO.jpg",price:1200,old:1800,tag:"INAUGURAÇÃO",desc:"Preço promocional demonstrativo; confirme marca, modelo, estoque e validade antes de vender",cardPrice:1250},
+{id:7,name:"Liquidificador compacto",category:"Casa",emoji:"🥤",img:"https://cb.scene7.com/is/image/Crate/cb_mLP_20260123_GR_BonusGifts_Vitamix?op_sharpen=1&qlt=90&wid=750",price:119.90,old:149.90,tag:"Oferta",desc:"Praticidade na cozinha"},
+{id:8,name:"Kit cuidados pessoais",category:"Beleza",emoji:"✨",img:"https://s.yimg.com/ny/api/res/1.2/0CmLv3tB9N23owV9J5FLzQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTk2MA--/https%3A/media.zenfs.com/en/men_s_journal_ecomm_550/8bc3a0b7cbde6186ab1222ff49a340f9",price:79.90,old:99.90,tag:"Novidade",desc:"Cuidados para sua rotina"}
+,
+{id:9,name:"Ventilador de coluna 40 cm",category:"Climatização",emoji:"🌀",img:"",price:229.90,old:279.90,tag:"Mais vendido",desc:"Ventilação para casa ou escritório"},
+{id:10,name:"Ventilador de mesa 30 cm",category:"Climatização",emoji:"🌀",img:"",price:99.90,old:129.90,tag:"Oferta",desc:"Compacto para ambientes menores"},
+{id:11,name:"Climatizador de ar portátil",category:"Climatização",emoji:"❄️",img:"",price:399.90,old:469.90,tag:"Destaque",desc:"Conforto para dias quentes"},
+{id:12,name:"Ar-condicionado Split Inverter 12.000 BTUs",category:"Climatização",emoji:"❄️",img:"",price:2399.90,old:2799.90,tag:"Oferta",desc:"Preço ilustrativo; confira voltagem e instalação"},
+{id:13,name:"Notebook para estudos 15,6 polegadas",category:"Informática",emoji:"💻",img:"",price:2499.90,old:2899.90,tag:"Destaque",desc:"Configure marca, memória e armazenamento reais"},
+{id:14,name:"Notebook gamer",category:"Informática",emoji:"💻",img:"",price:4999.90,old:5599.90,tag:"Gamer",desc:"Configure placa de vídeo e especificações"},
+{id:15,name:"Computador desktop",category:"Informática",emoji:"🖥️",img:"",price:2199.90,old:2499.90,tag:"Popular",desc:"Para trabalho e uso diário"},
+{id:16,name:"Monitor LED 24 polegadas",category:"Informática",emoji:"🖥️",img:"",price:699.90,old:829.90,tag:"Oferta",desc:"Tela para estudo, trabalho e lazer"},
+{id:17,name:"Monitor gamer 27 polegadas",category:"Informática",emoji:"🎮",img:"",price:1299.90,old:1499.90,tag:"Gamer",desc:"Configure resolução e taxa de atualização"},
+{id:18,name:"Teclado mecânico RGB",category:"Informática",emoji:"⌨️",img:"",price:179.90,old:229.90,tag:"Gamer",desc:"Teclado para jogos e produtividade"},
+{id:19,name:"Mouse gamer RGB",category:"Informática",emoji:"🖱️",img:"",price:89.90,old:119.90,tag:"Oferta",desc:"Acessório para computador"},
+{id:20,name:"Impressora multifuncional Wi-Fi",category:"Informática",emoji:"🖨️",img:"",price:599.90,old:699.90,tag:"Popular",desc:"Impressão e digitalização"},
+{id:21,name:"Roteador Wi-Fi dual band",category:"Informática",emoji:"📶",img:"",price:199.90,old:249.90,tag:"Destaque",desc:"Melhore a cobertura da rede"},
+{id:22,name:"SSD externo portátil 1 TB",category:"Informática",emoji:"💾",img:"",price:499.90,old:599.90,tag:"Novidade",desc:"Armazenamento portátil"},
+{id:23,name:"Tablet Android",category:"Celulares",emoji:"📱",img:"",price:799.90,old:999.90,tag:"Oferta",desc:"Para estudos, vídeos e navegação"},
+{id:24,name:"Smart TV LED 32 polegadas",category:"TV e Vídeo",emoji:"📺",img:"",price:1099.90,old:1299.90,tag:"Popular",desc:"Confira sistema e conexões do modelo"},
+{id:25,name:"Smart TV 50 polegadas 4K",category:"TV e Vídeo",emoji:"📺",img:"",price:2299.90,old:2699.90,tag:"Destaque",desc:"Preço ilustrativo; configure marca e modelo"},
+{id:26,name:"Soundbar para televisão",category:"TV e Vídeo",emoji:"🔊",img:"",price:499.90,old:599.90,tag:"Oferta",desc:"Áudio para filmes e séries"},
+{id:27,name:"Projetor portátil",category:"TV e Vídeo",emoji:"📽️",img:"",price:699.90,old:899.90,tag:"Novidade",desc:"Para apresentações e entretenimento"},
+{id:28,name:"Console de videogame",category:"Games",emoji:"🎮",img:"",price:2999.90,old:3399.90,tag:"Gamer",desc:"Configure console e armazenamento"},
+{id:29,name:"Controle sem fio para games",category:"Games",emoji:"🎮",img:"",price:299.90,old:359.90,tag:"Destaque",desc:"Confira compatibilidade antes da venda"},
+{id:30,name:"Headset gamer com microfone",category:"Games",emoji:"🎧",img:"",price:189.90,old:249.90,tag:"Popular",desc:"Áudio para jogos e chamadas"},
+{id:31,name:"Webcam Full HD",category:"Informática",emoji:"📷",img:"",price:159.90,old:199.90,tag:"Oferta",desc:"Para reuniões e aulas online"},
+{id:32,name:"Câmera de segurança Wi-Fi",category:"Eletrônicos",emoji:"📹",img:"",price:179.90,old:229.90,tag:"Novidade",desc:"Confira recursos e uso interno/externo"},
+{id:33,name:"Lâmpada inteligente Wi-Fi",category:"Casa",emoji:"💡",img:"",price:59.90,old:79.90,tag:"Casa inteligente",desc:"Iluminação conectada"},
+{id:34,name:"Tomada inteligente",category:"Casa",emoji:"🔌",img:"",price:69.90,old:89.90,tag:"Casa inteligente",desc:"Automação residencial"},
+{id:35,name:"Power bank 20.000 mAh",category:"Acessórios",emoji:"🔋",img:"",price:139.90,old:179.90,tag:"Popular",desc:"Bateria portátil para dispositivos"},
+{id:36,name:"Carregador sem fio",category:"Acessórios",emoji:"🔋",img:"",price:99.90,old:129.90,tag:"Oferta",desc:"Confira compatibilidade com seu aparelho"},
+{id:37,name:"Cabo USB-C reforçado",category:"Acessórios",emoji:"🔌",img:"",price:29.90,old:39.90,tag:"Destaque",desc:"Cabo para carga e transferência de dados"},
+{id:38,name:"Hub USB-C com múltiplas portas",category:"Acessórios",emoji:"🔗",img:"",price:119.90,old:159.90,tag:"Novidade",desc:"Expanda conexões do notebook"},
+{id:39,name:"Air fryer 5 litros",category:"Eletrodomésticos",emoji:"🍟",img:"",price:399.90,old:479.90,tag:"Mais vendido",desc:"Eletroportátil para a cozinha"},
+{id:40,name:"Micro-ondas 20 litros",category:"Eletrodomésticos",emoji:"🍲",img:"",price:549.90,old:649.90,tag:"Oferta",desc:"Confira dimensões e voltagem"},
+{id:41,name:"Cafeteira elétrica",category:"Eletrodomésticos",emoji:"☕",img:"",price:129.90,old:169.90,tag:"Popular",desc:"Café prático no dia a dia"},
+{id:42,name:"Aspirador de pó vertical",category:"Eletrodomésticos",emoji:"🧹",img:"",price:249.90,old:319.90,tag:"Destaque",desc:"Ajuda na limpeza da casa"},
+{id:43,name:"Fritadeira elétrica compacta",category:"Eletrodomésticos",emoji:"🍟",img:"",price:299.90,old:369.90,tag:"Oferta",desc:"Modelo ilustrativo; confira capacidade"},
+{id:44,name:"Batedeira elétrica",category:"Eletrodomésticos",emoji:"🥣",img:"",price:169.90,old:219.90,tag:"Popular",desc:"Para receitas e massas"},
+{id:45,name:"Secador de cabelo",category:"Beleza",emoji:"💨",img:"",price:119.90,old:159.90,tag:"Oferta",desc:"Confira potência e acessórios"},
+{id:46,name:"Escova secadora",category:"Beleza",emoji:"💇",img:"",price:149.90,old:199.90,tag:"Destaque",desc:"Acessório para cuidados pessoais"},
+{id:47,name:"Barbeador elétrico",category:"Beleza",emoji:"🪒",img:"",price:99.90,old:139.90,tag:"Popular",desc:"Cuidados pessoais em casa"},
+{id:48,name:"Smartwatch com GPS",category:"Eletrônicos",emoji:"⌚",img:"",price:249.90,old:329.90,tag:"Novidade",desc:"Configure modelo e funções reais"},
+{id:49,name:"Drone com câmera",category:"Eletrônicos",emoji:"🛸",img:"",price:899.90,old:1099.90,tag:"Destaque",desc:"Confira autonomia e recursos do modelo"},
+{id:50,name:"Microfone USB para streaming",category:"Eletrônicos",emoji:"🎙️",img:"",price:219.90,old:279.90,tag:"Criadores",desc:"Para gravações e transmissões"}
+,{id:51,name:"Ar-condicionado Split Inverter 9.000 BTUs",category:"Climatização",emoji:"❄️",img:"",price:1899.90,old:2299.90,tag:"Inauguração",desc:"Confira marca, voltagem e instalação"},
+{id:52,name:"Ar-condicionado Split Inverter 18.000 BTUs",category:"Climatização",emoji:"❄️",img:"",price:3299.90,old:3799.90,tag:"Oferta limitada",desc:"Modelo ilustrativo; confira instalação"},
+{id:53,name:"Ar-condicionado portátil",category:"Climatização",emoji:"❄️",img:"",price:2199.90,old:2599.90,tag:"Preço especial",desc:"Confira capacidade e condições de uso"},
+{id:54,name:"Ventilador de coluna 40 cm",category:"Climatização",emoji:"🌀",img:"",price:149.90,old:199.90,tag:"Inauguração",desc:"Ventilação para casa e escritório"},
+{id:55,name:"Ventilador de parede 60 cm",category:"Climatização",emoji:"🌀",img:"",price:229.90,old:279.90,tag:"Oferta limitada",desc:"Confira potência e instalação"},
+{id:56,name:"Ventilador de teto com controle",category:"Climatização",emoji:"🌀",img:"",price:299.90,old:369.90,tag:"Preço especial",desc:"Confira medidas e instalação"},
+{id:57,name:"Notebook ultrafino 14 polegadas",category:"Informática",emoji:"💻",img:"",price:2799.90,old:3199.90,tag:"Inauguração",desc:"Preço ilustrativo; configure as especificações"},
+{id:58,name:"Notebook para trabalho 16 GB RAM",category:"Informática",emoji:"💻",img:"",price:3199.90,old:3699.90,tag:"Oferta limitada",desc:"Configure processador, memória e SSD"},
+{id:59,name:"Notebook 2 em 1 conversível",category:"Informática",emoji:"💻",img:"",price:3499.90,old:3999.90,tag:"Destaque",desc:"Confira modelo, tela e especificações"},
+{id:60,name:"Mini PC compacto",category:"Informática",emoji:"🖥️",img:"",price:1299.90,old:1599.90,tag:"Preço especial",desc:"Configure processador, memória e armazenamento"},
+{id:61,name:"Teclado e mouse sem fio",category:"Acessórios",emoji:"⌨️",img:"",price:99.90,old:139.90,tag:"Inauguração",desc:"Kit para computador e notebook"},
+{id:62,name:"Base refrigerada para notebook",category:"Informática",emoji:"💻",img:"",price:89.90,old:119.90,tag:"Oferta limitada",desc:"Base com ventilação para notebook"},
+{id:63,name:"Dock station USB-C",category:"Acessórios",emoji:"🔗",img:"",price:199.90,old:259.90,tag:"Destaque",desc:"Confira compatibilidade com seu aparelho"},
+{id:64,name:"Smartphone intermediário 128 GB",category:"Celulares",emoji:"📱",img:"",price:1299.90,old:1499.90,tag:"Inauguração",desc:"Preço demonstrativo; configure marca e modelo"},
+{id:65,name:"Smartphone premium 256 GB",category:"Celulares",emoji:"📱",img:"",price:3299.90,old:3799.90,tag:"Oferta limitada",desc:"Configure marca, modelo e armazenamento"},
+{id:66,name:"Fone Bluetooth com cancelamento de ruído",category:"Acessórios",emoji:"🎧",img:"",price:199.90,old:279.90,tag:"Preço especial",desc:"Confira recursos e compatibilidade"},
+{id:67,name:"Caixa de som Bluetooth potente",category:"Eletrônicos",emoji:"🔊",img:"",price:249.90,old:329.90,tag:"Inauguração",desc:"Confira potência e autonomia do modelo"},
+{id:68,name:"Projetor Full HD",category:"TV e Vídeo",emoji:"📽️",img:"",price:1199.90,old:1499.90,tag:"Oferta limitada",desc:"Confira resolução e brilho reais"},
+{id:69,name:"TV Smart 43 polegadas 4K",category:"TV e Vídeo",emoji:"📺",img:"",price:1799.90,old:2199.90,tag:"Inauguração",desc:"Configure marca e sistema da TV"},
+{id:70,name:"TV Smart 55 polegadas 4K",category:"TV e Vídeo",emoji:"📺",img:"",price:2699.90,old:3199.90,tag:"Preço especial",desc:"Preço demonstrativo; confirme modelo e estoque"},
+{id:71,name:"SSD interno 1 TB",category:"Informática",emoji:"💾",img:"",price:399.90,old:499.90,tag:"Oferta limitada",desc:"Confira interface e compatibilidade"},
+{id:72,name:"Memória RAM para computador",category:"Informática",emoji:"💾",img:"",price:189.90,old:239.90,tag:"Destaque",desc:"Confira geração e compatibilidade"},
+{id:73,name:"Placa de vídeo gamer",category:"Informática",emoji:"🎮",img:"",price:1899.90,old:2299.90,tag:"Gamer",desc:"Configure marca e modelo reais"},
+{id:74,name:"Nobreak para computador",category:"Informática",emoji:"🔋",img:"",price:449.90,old:549.90,tag:"Inauguração",desc:"Confira potência e autonomia"},
+{id:75,name:"Estabilizador de energia",category:"Acessórios",emoji:"🔌",img:"",price:139.90,old:179.90,tag:"Oferta limitada",desc:"Confira potência e uso recomendado"},
+{id:76,name:"Chapinha alisadora de cabelo",category:"Beleza",emoji:"💇",img:"",price:89.90,old:129.90,tag:"Inauguração",desc:"Confira temperatura, placas e voltagem"},
+{id:77,name:"Prancha profissional de cerâmica",category:"Beleza",emoji:"💇",img:"",price:149.90,old:199.90,tag:"Preço especial",desc:"Modelo ilustrativo; confira recursos reais"},
+{id:78,name:"Modelador de cachos",category:"Beleza",emoji:"🌀",img:"",price:119.90,old:159.90,tag:"Oferta limitada",desc:"Confira diâmetro e controle de temperatura"},
+{id:79,name:"Máquina de cortar cabelo",category:"Beleza",emoji:"✂️",img:"",price:99.90,old:139.90,tag:"Inauguração",desc:"Confira acessórios e autonomia"},
+{id:80,name:"Escova elétrica alisadora",category:"Beleza",emoji:"💇",img:"",price:109.90,old:149.90,tag:"Preço especial",desc:"Confira temperatura e voltagem"},
+{id:81,name:"Depilador elétrico",category:"Beleza",emoji:"✨",img:"",price:129.90,old:169.90,tag:"Oferta limitada",desc:"Confira acessórios e forma de uso"},
+{id:82,name:"Purificador de ar",category:"Casa",emoji:"🌬️",img:"",price:499.90,old:629.90,tag:"Inauguração",desc:"Confira área recomendada e filtros"},
+{id:83,name:"Umidificador de ar ultrassônico",category:"Casa",emoji:"💧",img:"",price:119.90,old:159.90,tag:"Preço especial",desc:"Confira capacidade e instruções de uso"},
+{id:84,name:"Robô aspirador",category:"Eletrodomésticos",emoji:"🤖",img:"",price:699.90,old:899.90,tag:"Oferta limitada",desc:"Confira sensores, autonomia e funções"},
+{id:85,name:"Ferro de passar a vapor",category:"Eletrodomésticos",emoji:"♨️",img:"",price:99.90,old:139.90,tag:"Inauguração",desc:"Confira potência e voltagem"},
+{id:86,name:"Sanduicheira elétrica",category:"Eletrodomésticos",emoji:"🥪",img:"",price:79.90,old:109.90,tag:"Preço especial",desc:"Eletroportátil para o dia a dia"},
+{id:87,name:"Panela elétrica de arroz",category:"Eletrodomésticos",emoji:"🍚",img:"",price:149.90,old:199.90,tag:"Oferta limitada",desc:"Confira capacidade e voltagem"},
+{id:88,name:"Mixer de mão",category:"Eletrodomésticos",emoji:"🥣",img:"",price:89.90,old:119.90,tag:"Inauguração",desc:"Confira acessórios e potência"},
+{id:89,name:"Liquidificador potente",category:"Eletrodomésticos",emoji:"🥤",img:"",price:159.90,old:219.90,tag:"Preço especial",desc:"Confira potência, jarra e voltagem"},
+{id:90,name:"Aspirador robô com mapeamento",category:"Eletrodomésticos",emoji:"🤖",img:"",price:1199.90,old:1499.90,tag:"Oferta limitada",desc:"Configure modelo e recursos reais"},
+{id:91,name:"Relógio inteligente para esportes",category:"Eletrônicos",emoji:"⌚",img:"",price:179.90,old:239.90,tag:"Inauguração",desc:"Confira compatibilidade e funções"},
+{id:92,name:"Câmera de ação",category:"Eletrônicos",emoji:"📷",img:"",price:499.90,old:649.90,tag:"Preço especial",desc:"Confira resolução e acessórios"},
+{id:93,name:"Ring light com tripé",category:"Acessórios",emoji:"💡",img:"",price:79.90,old:109.90,tag:"Oferta limitada",desc:"Para vídeos, fotos e chamadas"},
+{id:94,name:"Microfone sem fio para celular",category:"Eletrônicos",emoji:"🎙️",img:"",price:149.90,old:199.90,tag:"Inauguração",desc:"Confira conexão e compatibilidade"},
+{id:95,name:"Controle universal para TV",category:"Acessórios",emoji:"🎛️",img:"",price:39.90,old:59.90,tag:"Preço especial",desc:"Confira compatibilidade com a TV"},
+{id:96,name:"Filtro de linha com proteção",category:"Acessórios",emoji:"🔌",img:"",price:49.90,old:69.90,tag:"Oferta limitada",desc:"Confira padrão de tomadas e proteção"},
+{id:97,name:"Carregador rápido USB-C",category:"Acessórios",emoji:"🔌",img:"",price:59.90,old:89.90,tag:"Inauguração",desc:"Confira potência e compatibilidade"},
+{id:98,name:"Câmera veicular",category:"Eletrônicos",emoji:"🚘",img:"",price:229.90,old:299.90,tag:"Preço especial",desc:"Confira resolução e recursos"},
+{id:99,name:"Repetidor de sinal Wi-Fi",category:"Acessórios",emoji:"📶",img:"",price:99.90,old:139.90,tag:"Oferta limitada",desc:"Confira compatibilidade com o roteador"},
+{id:100,name:"Balança digital inteligente",category:"Casa",emoji:"⚖️",img:"",price:89.90,old:119.90,tag:"Inauguração",desc:"Confira recursos e aplicativo compatível"}
+
+
+];
+const money=n=>n.toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
+let cart={};let category="Todos";let query="";
+const productsEl=document.getElementById("products");
+function normalizeText(value){return String(value||"").normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase().trim()}
+function renderProducts(){
+ const q=normalizeText(query);
+ const list=products.filter(p=>(category==="Todos"||p.category===category)&&normalizeText(`${p.name} ${p.category} ${p.desc} ${p.emoji}`).includes(q));
+ document.getElementById("resultCount").textContent=`${list.length} produto(s)`;
+ productsEl.innerHTML=list.length?list.map(p=>`<article class="product"><div class="productimg"><span class="tag">${p.tag}</span>${p.img?`<img src="${p.img}" alt="${p.name}" loading="lazy" onerror="this.style.display=\'none\'">`:""}<span class="fallback" aria-hidden="true">${p.emoji}</span></div><div class="productbody"><span class="category">${p.category}</span><h3>${p.name}</h3><div class="rating">★★★★★ <span style="color:#667085">Produto demonstrativo</span></div><div class="old">De ${money(p.old)}</div><div class="pixlabel">🔥 PREÇO ESPECIAL NO PIX</div><div class="price">${money(p.price)}</div><div class="installments"><span class="cardprice">No cartão: ${money(p.cardPrice ?? (p.price+50))}</span><br>Preço demonstrativo • confirme antes de vender</div><button class="add" data-add="${p.id}">Adicionar ao carrinho</button></div></article>`).join(""):`<div class="empty">Não encontramos produtos com essa busca. Tente outro termo ou categoria.</div>`;
+}
+function updateCart(){
+ const entries=Object.entries(cart).filter(([id,q])=>q>0);const count=entries.reduce((s,[id,q])=>s+q,0);const total=entries.reduce((s,[id,q])=>s+products.find(p=>p.id===+id).price*q,0);
+ document.getElementById("cartCount").textContent=count;document.getElementById("cartTotal").textContent=money(total);
+ document.getElementById("cartItems").innerHTML=entries.length?entries.map(([id,q])=>{const p=products.find(x=>x.id===+id);return `<div class="cartitem"><div><strong>${p.name}</strong><small>${money(p.price)} cada</small><div class="qty"><button data-qty="${id}" data-delta="-1" aria-label="Diminuir">−</button><span>${q}</span><button data-qty="${id}" data-delta="1" aria-label="Aumentar">+</button></div></div><strong>${money(p.price*q)}</strong></div>`}).join(""):`<div class="empty">Seu carrinho está vazio.<br>Adicione produtos para continuar.</div>`;
+}
+function toast(msg){const el=document.getElementById("toast");el.textContent=msg;el.classList.add("show");setTimeout(()=>el.classList.remove("show"),2300)}
+function openProductDetail(id){
+ const p=products.find(x=>x.id===+id); if(!p)return;
+ document.getElementById("detailCategory").textContent=p.category;
+ document.getElementById("detailName").textContent=p.name;
+ document.getElementById("detailDesc").textContent=p.desc;
+ document.getElementById("detailOld").textContent=money(p.old);
+ document.getElementById("detailPrice").textContent=money(p.price);
+ document.getElementById("detailCardPrice").textContent="No cartão: "+money(p.cardPrice ?? (p.price+50));
+ document.getElementById("detailEmoji").textContent=p.emoji;
+ document.getElementById("detailAdd").dataset.add=String(p.id);
+ document.getElementById("productDetail").classList.add("open");
+}
+productsEl.addEventListener("click",e=>{
+ const add=e.target.closest("[data-add]");
+ if(add){const id=+add.dataset.add;cart[id]=(cart[id]||0)+1;updateCart();toast("Produto adicionado ao carrinho!");return;}
+ const card=e.target.closest(".product");
+ if(card){const button=card.querySelector("[data-add]");if(button)openProductDetail(button.dataset.add);}
+});
+document.getElementById("detailAdd").addEventListener("click",e=>{
+ const id=+e.currentTarget.dataset.add;cart[id]=(cart[id]||0)+1;updateCart();
+ document.getElementById("productDetail").classList.remove("open");toast("Produto adicionado ao carrinho!");
+});
+document.getElementById("detailClose").onclick=()=>document.getElementById("productDetail").classList.remove("open");
+document.getElementById("detailContinue").onclick=()=>document.getElementById("productDetail").classList.remove("open");
+document.getElementById("productDetail").addEventListener("click",e=>{if(e.target.id==="productDetail")e.currentTarget.classList.remove("open")});
+document.getElementById("cartItems").addEventListener("click",e=>{const b=e.target.closest("[data-qty]");if(!b)return;const id=+b.dataset.qty;cart[id]=(cart[id]||0)+ +b.dataset.delta;if(cart[id]<=0)delete cart[id];updateCart()});
+document.querySelectorAll("[data-cat]").forEach(b=>b.addEventListener("click",()=>{category=b.dataset.cat;document.querySelectorAll("[data-cat]").forEach(x=>x.classList.toggle("active",x===b));renderProducts()}));
+document.getElementById("searchInput").addEventListener("input",e=>{
+ query=e.target.value;
+ renderProducts();
+});
+document.getElementById("searchForm").addEventListener("submit",e=>{
+ e.preventDefault();
+ query=document.getElementById("searchInput").value;
+ renderProducts();
+ document.getElementById("catalogo").scrollIntoView({behavior:"smooth"});
+});
+document.getElementById("openCart").onclick=()=>document.getElementById("cartPanel").classList.add("open");
+document.getElementById("closeCart").onclick=()=>document.getElementById("cartPanel").classList.remove("open");
+document.getElementById("cartPanel").addEventListener("click",e=>{if(e.target.id==="cartPanel")e.currentTarget.classList.remove("open")});
+document.getElementById("checkout").onclick=()=>toast("Pagamento ainda não configurado. Conecte Asaas ou Mercado Pago.");
+document.getElementById("newsletterForm").addEventListener("submit",e=>{e.preventDefault();toast("Formulário de demonstração: conecte uma ferramenta de e-mail para salvar cadastros.");e.target.reset()});
+document.getElementById("year").textContent=new Date().getFullYear();
+renderProducts();updateCart();
+</script>
+</body>
+</html>
