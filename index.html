@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIP Eletrônicos Bras</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+    }
+    header {
+      background: #101827;
+      color: white;
+      padding: 22px 15px;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 12px; }
+    header p { margin: 0; }
+    .busca {
+      display: block;
+      width: 100%;
+      max-width: 600px;
+      margin: 18px auto 0;
+      padding: 13px;
+      border: 0;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+    .banner {
+      background: #ffcf33;
+      color: #171717;
+      padding: 24px 15px;
+      text-align: center;
+      font-weight: bold;
+    }
+    main { padding: 20px 12px; max-width: 1100px; margin: auto; }
+    h2 { text-align: center; }
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+      gap: 14px;
+    }
+    .produto {
+      background: white;
+      padding: 12px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 8px #00000012;
+    }
+    .produto img {
+      width: 100%;
+      height: 135px;
+      object-fit: contain;
+    }
+    .produto h3 { font-size: 16px; }
+    .preco { color: #07833d; font-size: 19px; font-weight: bold; }
+    .pix { font-size: 13px; color: #555; }
+    .comprar {
+      display: block;
+      background: #168747;
+      color: white;
+      padding: 11px 5px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      margin-top: 25px;
+      padding: 22px;
+      text-align: center;
+      background: #101827;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VIP Eletrônicos Bras</h1>
+    <p>Ofertas especiais para você!</p>
+    <input id="busca" class="busca" placeholder="O que você está procurando?">
+  </header>
+
+  <section class="banner">
+    🔥 OFERTAS DE INAUGURAÇÃO — APROVEITE!
+  </section>
+
+  <main>
+    <h2>Nossos produtos</h2>
+    <div class="produtos" id="produtos">
+      <article class="produto">
+        <img src="https://placehold.co/300x200?text=Smartphone" alt="Smartphone">
+        <h3>Smartphone</h3>
+        <p class="preco">R$ 1.200,00</p>
+        <p class="pix">Preço promocional no Pix</p>
+        <a class="comprar" href="#contato">Tenho interesse</a>
+      </article>
+      <article class="produto">
+        <img src="https://placehold.co/300x200?text=Notebook" alt="Notebook">
+        <h3>Notebook</h3>
+        <p class="preco">Consulte o preço</p>
+        <a class="comprar" href="#contato">Tenho interesse</a>
+      </article>
+      <article class="produto">
+        <img src="https://placehold.co/300x200?text=Ar+condicionado" alt="Ar-condicionado">
+        <h3>Ar-condicionado</h3>
+        <p class="preco">Consulte o preço</p>
+        <a class="comprar" href="#contato">Tenho interesse</a>
+      </article>
+      <article class="produto">
+        <img src="https://placehold.co/300x200?text=Ventilador" alt="Ventilador">
+        <h3>Ventilador</h3>
+        <p class="preco">Consulte o preço</p>
+        <a class="comprar" href="#contato">Tenho interesse</a>
+      </article>
+      <article class="produto">
+        <img src="https://placehold.co/300x200?text=Secador" alt="Secador de cabelo">
+        <h3>Secador de cabelo</h3>
+        <p class="preco">Consulte o preço</p>
+        <a class="comprar" href="#contato">Tenho interesse</a>
+      </article>
+      <article class="produto">
+        <img src="https://placehold.co/300x200?text=Chapinha" alt="Chapinha">
+        <h3>Chapinha</h3>
+        <p class="preco">Consulte o preço</p>
+        <a class="comprar" href="#contato">Tenho interesse</a>
+      </article>
+    </div>
+    <p id="contato" style="text-align:center">
+      Para comprar, entre em contato com a loja.
+    </p>
+  </main>
+
+  <footer>VIP Eletrônicos Bras © 2026</footer>
+
+  <script>
+    document.getElementById('busca').addEventListener('input', function () {
+      const termo = this.value.toLowerCase();
+      document.querySelectorAll('.produto').forEach(function (produto) {
+        produto.style.display =
+          produto.innerText.toLowerCase().includes(termo) ? '' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>
